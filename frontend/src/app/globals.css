@@ -1,0 +1,45 @@
+:root {
+  --background-site: #e8e9e4;
+  --background-card: #ffffff;
+  
+  --text-main: #143210;
+  --text-muted: #6b7280;
+  --text-light: #ffffff;
+  
+  --accent-light: #9deb7a;
+  --accent-light-hover: #8be069;
+  
+  --accent-dark: #1f3b18;
+  --accent-dark-hover: #152c10;
+  
+  --accent-grey: #f0f3ea;
+  --accent-grey-hover: #e3e8dc;
+  
+  --border-color: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-site);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

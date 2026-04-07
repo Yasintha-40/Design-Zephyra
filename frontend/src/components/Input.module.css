@@ -1,0 +1,52 @@
+.inputContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 16px 16px 16px 44px;
+    border: 1px solid var(--border-color);
+    border-radius: 9999px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: transparent;
+    color: var(--text-main);
+}
+
+.inputField:focus {
+    border-color: var(--accent-dark);
+    box-shadow: 0 0 0 2px rgba(31, 59, 24, 0.1);
+}
+
+.inputField::placeholder {
+    color: #a0aab2;
+}
+
+.icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    color: #a0aab2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.suffixIcon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0aab2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
